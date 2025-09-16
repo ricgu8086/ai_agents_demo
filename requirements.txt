@@ -1,3 +1,4 @@
 requests==2.32
 dotenv==0.9
 crewai==0.186
+ipykernel==6.30.1
