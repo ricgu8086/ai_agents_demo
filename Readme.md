@@ -13,14 +13,12 @@ AI agents Demo
 
 # About
 
-Is it difficult to work with agents? Do I need a lot of experience? Well, as always happens with complex questions, the most reasonable answer is: it depends. A full enterprise-grade project with multiple services and data integrations is difficult, but a small proof of concept to learn the technology and the tools it is not. This is what we are going to learn today. We will use **Crew.AI**, **Perplexity** and **Nano banana** to create autonomous agents that enrich our articles with stunning visualizations.
+Is it difficult to work with agents? Do I need a lot of experience? Well, as always happens with complex questions, the most reasonable answer is: it depends. A full enterprise-grade project with multiple services and data integrations is difficult, but a small proof of concept to learn the technology and the tools it is not. This is what we are going to learn today. We will use **Crew.AI**, **OpenRouter** and **Nano banana** to create autonomous agents that enrich our articles with stunning visualizations.
 
 
 # Requirements
 
-We are going to work with AI agents, for this **you need access to an LLM**. Here we have selected Perplexity's hosted models, but you can use any other provider such as Groq, AWS Bedrock or even hosting it in local. The examples and guides here will show you how to use the Perplexity option. Thus you need a **internet connection** and a **Perplexity account with tokens or credits** available.
-
-Tip: these days there are some promos to get a free trial for Perplexity Pro and that tier includes free monthly credits. Use Google ;-)
+We are going to work with AI agents, for this **you need access to an LLM**. Here we have selected OpenRouter's hosted models, but you can use any other provider such as Groq, AWS Bedrock or even hosting it in local. The examples and guides here will show you how to use the OpenRouter option. Thus you need a **internet connection** and a **OpenRouter account with tokens or credits** available.
 
 A **Python** environment is required as well. We will use Anaconda to work with virtual environments, but feel free to choose any option desired.
 
@@ -29,9 +27,10 @@ A **Python** environment is required as well. We will use Anaconda to work with 
 You can create the environment and install the dependencies like this:
 
 ```bash
-conda create -n "agent_demo" python=3.12
-conda activate "agent_demo"
+conda create -n "crewai_demo_3_12" python=3.12
+conda activate "crewai_demo_3_12"
 pip install -r requirements.txt
+python -m ipykernel install --user --name crewai_demo_3_12 --display-name "Python (crewai_demo_3_12)"
 ```
 
 # Configuration
@@ -49,8 +48,8 @@ To make sure the experience is as smoother as it should be, there are a couple o
 
 In this path: `notebooks/configuration_tests/` you will find:
 
-1. `test_perplexity.ipynb`: here you will test that you can use Perplexity's LLM. That you have tokens, that you have correctly configured an API key, etc.
-2. `test_crewai.ipynb`: once Perplexity configuration is ready you can check its integration with Crew.AI.
+1. `test_openrouter.ipynb`: here you will test that you can use OpenRouter's LLM. That you have tokens, that you have correctly configured an API key, etc.
+2. `test_crewai.ipynb`: once OpenRouter configuration is ready you can check its integration with Crew.AI.
 
 If you could run successfully both notebooks it means you are ready for the best part: agents!!
 

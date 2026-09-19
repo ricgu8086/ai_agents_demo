@@ -1,5 +1,5 @@
 requests==2.32
-dotenv==0.9
-crewai==0.186
+dotenv==0.9.9
+crewai[litellm]==0.186
 crewai-tools==0.71
 ipykernel==6.30
