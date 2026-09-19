@@ -1,6 +1,11 @@
 AI agents Demo
 --------------
 
+<p align="center">
+  <img src="./resources/ai agent logo.jpeg" alt="AI agent Logo" width="200"/>
+</p>
+
+
 - [About](#about)
 - [Requirements](#requirements)
 - [Installation](#installation)
