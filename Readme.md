@@ -30,7 +30,7 @@ You can create the environment and install the dependencies like this:
 conda create -n "crewai_demo_3_12" python=3.12
 conda activate "crewai_demo_3_12"
 pip install -r requirements.txt
-python -m ipykernel install --user --name crewai_demo_3_12 --display-name "Python (crewai_demo_3_12)"
+python -m ipykernel install --user --name crewai_demo_3_12 --display-name "Python(crewai_demo_3_12)"
 ```
 
 # Configuration
